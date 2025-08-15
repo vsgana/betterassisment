@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Kubernetes Node.js Demo</title>
-    <link rel="stylesheet" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>🚀 Welcome to My Kubernetes Demo</h1>
-        <p>This Node.js app is deployed using Docker, GitHub Actions, and Kubernetes!</p>
+        <h1>QR Code Generator</h1>
+        <input type="text" id="qrText" placeholder="Enter text or URL" />
+        <button onclick="generateQR()">Generate QR</button>
+        <div id="qrResult"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
