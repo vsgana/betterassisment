@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: qr-code-app
-          image: your-dockerhub-username/qr-code-app:latest
+          image: vsgana/qr-code-app:latest
           ports:
             - containerPort: 3000
           resources:
