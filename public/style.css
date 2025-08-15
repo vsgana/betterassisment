@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.container {
+    background: rgba(0,0,0,0.3);
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+h1 {
+    font-size: 2.5em;
+}
